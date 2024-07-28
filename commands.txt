@@ -1,0 +1,4 @@
+.\env\Scripts\Activate
+cd backend
+python manage.py makemigrations  #create a file that specifies that make migrations need to be performed
+python manage.py migrate
